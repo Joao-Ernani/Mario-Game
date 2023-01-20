@@ -5,10 +5,12 @@
     font-family: 'Press Start 2P';
     max-width: 700px;
 }
+
 body{
-    background-image: url(/img/fundo.png);
+    background-image: url(../img/fundo.png);
     background-size: cover;
 }
+
 
 .login-form{
     display: inline-block;
