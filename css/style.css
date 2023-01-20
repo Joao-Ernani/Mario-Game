@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P';
+    max-width: 700px;
+}
+body{
+    background-image: url(/img/fundo.png);
+    background-size: cover;
+}
+
+.login-form{
+    display: inline-block;
+    margin-left: 430px;
+}
+img{
+    width: 300px;
+    margin-top: 40px;
+    margin-bottom:5px;
+    margin-left: 145px;
+}
+h1{
+    margin-left: 120px;
+    width: 500px;
+    padding: 20px;
+}
+input{
+    background: none;
+    border-radius: 30px;
+    height: 40px;
+    margin-left: 120px;
+    text-align: center;
+    border: 2px solid #000;
+}
+input::placeholder{
+    color: #000;
+}
+
+button{
+    background: linear-gradient(#e12323 , #E0F6FF);
+    border-radius: 30px;
+    height: 40px;
+    width: 90px;
+    color: black;
+    border: 2px solid #000;
+}
+
+button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.login_button{
+    background: rgba(198, 191, 191, 0);
+}
